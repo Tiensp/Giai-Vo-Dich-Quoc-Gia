@@ -4,7 +4,7 @@ use QLBD
 --- Bảng Đội Bóng ---
 create table doibong(
 	MaDoiBong char(4) primary key,
-	TenDoiBong nvarchar not null,
+	TenDoiBong nvarchar(100) not null,
 	SoLuongCauThu int,
 	SoCauThuNgoai int,
 	TenSanNha nvarchar(100)
@@ -13,7 +13,7 @@ create table doibong(
 --- Bảng Cầu Thủ ---
 create table cauthu(
 	MaCauThu char(4) primary key,
-	TenCauThu nvarchar not null,
+	TenCauThu nvarchar(100) not null,
 	NgaySinh smalldatetime,
 	GhiChu nvarchar(200),
 	TongSoBT int,
