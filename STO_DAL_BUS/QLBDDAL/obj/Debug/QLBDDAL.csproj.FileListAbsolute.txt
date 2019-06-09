@@ -1,0 +1,9 @@
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.csprojAssemblyReference.cache
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.csproj.CoreCompileInputs.cache
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\bin\Debug\QLBDDAL.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\bin\Debug\QLBDDAL.pdb
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\bin\Debug\QLBDDTO.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\bin\Debug\QLBDDTO.pdb
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.csproj.CopyComplete
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.pdb
