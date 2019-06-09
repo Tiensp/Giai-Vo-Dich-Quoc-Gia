@@ -1,0 +1,11 @@
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\obj\Debug\QLBDBUS.csprojAssemblyReference.cache
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\obj\Debug\QLBDBUS.csproj.CoreCompileInputs.cache
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\bin\Debug\QLBDBUS.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\bin\Debug\QLBDBUS.pdb
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\bin\Debug\QLBDDAL.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\bin\Debug\QLBDDTO.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\bin\Debug\QLBDDAL.pdb
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\bin\Debug\QLBDDTO.pdb
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\obj\Debug\QLBDBUS.csproj.CopyComplete
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\obj\Debug\QLBDBUS.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDBUS\obj\Debug\QLBDBUS.pdb

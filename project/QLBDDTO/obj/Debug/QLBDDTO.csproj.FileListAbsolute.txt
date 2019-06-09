@@ -1,0 +1,6 @@
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\bin\Debug\QLBDDTO.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\bin\Debug\QLBDDTO.pdb
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.csprojAssemblyReference.cache
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.csproj.CoreCompileInputs.cache
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.dll
+C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.pdb

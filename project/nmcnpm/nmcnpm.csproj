@@ -269,16 +269,6 @@
   <ItemGroup>
     <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Download.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Giai-Vo-Dich-Quoc-Gia-master\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDBUS\QLBDBUS.csproj">
-      <Project>{fd02c2a4-a6f9-4ba9-8da8-b369dbed22c5}</Project>
-      <Name>QLBDBUS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Giai-Vo-Dich-Quoc-Gia-master\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\QLBDDTO.csproj">
-      <Project>{39d62467-ecc1-4310-a91c-8a8f5e4873f3}</Project>
-      <Name>QLBDDTO</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
