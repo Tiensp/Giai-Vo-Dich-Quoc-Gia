@@ -25,7 +25,7 @@ namespace QLBDDAL
         {
             string query = string.Empty;
             query += "INSERT INTO [cauthu] ([MaCauThu], [TenCauThu], [NgaySinh], [GhiChu], [TongSoBT],[TuoiCauThu],[MaLoaiCT],[MaDoiBong])";
-            query += "VALUES (@MaCauThu,@TenCauThu,@NgaySinh,@GhiChu,@TongSoBT,@TuoiCauThu,MaLoaiCT,MaDoiBong)";
+            query += "VALUES (@MaCauThu,@TenCauThu,@NgaySinh,@GhiChu,@TongSoBT,@TuoiCauThu,@MaLoaiCT,@MaDoiBong)";
             using (SqlConnection con = new SqlConnection(ConnectionString))
             {
                 using (SqlCommand cmd = new SqlCommand())

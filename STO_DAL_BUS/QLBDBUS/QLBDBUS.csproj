@@ -42,9 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BanThangBUS.cs" />
+    <Compile Include="BXHBUS.cs" />
     <Compile Include="CauThuBUS.cs" />
+    <Compile Include="ChiTietBXHBUS.cs" />
     <Compile Include="DoiBongBUS.cs" />
+    <Compile Include="KetQuaTranDauBUS.cs" />
+    <Compile Include="LoaiBanThangBUS.cs" />
+    <Compile Include="LoaiCauThuBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThamSoBUS.cs" />
+    <Compile Include="TranDauBUS.cs" />
+    <Compile Include="VongThiDauBUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QLBDDAL\QLBDDAL.csproj">

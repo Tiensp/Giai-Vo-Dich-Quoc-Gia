@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace QLBDDAL
 {
-    public class DoiBongDAL
+    public class LoaiCauThuDAL
     {
         private string connectionstring;
         public string ConnectionString
@@ -17,16 +17,16 @@ namespace QLBDDAL
             get { return connectionstring; }
             set { connectionstring = value; }
         }
-        public DoiBongDAL()
+        public LoaiCauThuDAL()
         {
             connectionstring = ConfigurationManager.AppSettings["ConnectionString"];
         }
 
-        public bool them(DoiBongDTO db)
+        public bool them(LoaiCauThuDTO lct)
         {
             string query = string.Empty;
-            query += "INSERT INTO [doibong] ([MaDoiBong], [TenDoiBong], [SoLuongCauThu], [SoCauThuNgoai], [TenSanNha])";
-            query += "VALUES (@MaDoiBong,@TenDoiBong,@SoLuongCauThu,@SoCauThuNgoai,@TenSanNha)";
+            query += "INSERT INTO [loaicauthu] ([MaLoaiCT], [LoaiCauThu])";
+            query += "VALUES (@MaLoaiCT,@LoaiCauThu)";
             using (SqlConnection con = new SqlConnection(ConnectionString))
             {
                 using (SqlCommand cmd = new SqlCommand())
@@ -34,11 +34,8 @@ namespace QLBDDAL
                     cmd.Connection = con;
                     cmd.CommandType = System.Data.CommandType.Text;
                     cmd.CommandText = query;
-                    cmd.Parameters.AddWithValue("@MaDoiBong", db.MaDoiBong);
-                    cmd.Parameters.AddWithValue("@TenDoiBong", db.TenDoiBong);
-                    cmd.Parameters.AddWithValue("@SoLuongCauThu", db.SoLuongCauThu);
-                    cmd.Parameters.AddWithValue("@SoCauThuNgoai", db.SoCauThuNgoai);
-                    cmd.Parameters.AddWithValue("@TenSanNha", db.TenSanNha);
+                    cmd.Parameters.AddWithValue("@MaLoaiCT", lct.MaLoaiCT);
+                    cmd.Parameters.AddWithValue("@LoaiCauThu", lct.LoaiCauThu);
                     try
                     {
                         con.Open();

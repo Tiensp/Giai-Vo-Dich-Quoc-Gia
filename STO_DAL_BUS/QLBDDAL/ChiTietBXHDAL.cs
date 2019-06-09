@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace QLBDDAL
 {
-    public class DoiBongDAL
+    public class ChiTietBXHDAL
     {
         private string connectionstring;
         public string ConnectionString
@@ -17,16 +17,16 @@ namespace QLBDDAL
             get { return connectionstring; }
             set { connectionstring = value; }
         }
-        public DoiBongDAL()
+        public ChiTietBXHDAL()
         {
             connectionstring = ConfigurationManager.AppSettings["ConnectionString"];
         }
 
-        public bool them(DoiBongDTO db)
+        public bool them(ChiTietBXHDTO ctbxh)
         {
             string query = string.Empty;
-            query += "INSERT INTO [doibong] ([MaDoiBong], [TenDoiBong], [SoLuongCauThu], [SoCauThuNgoai], [TenSanNha])";
-            query += "VALUES (@MaDoiBong,@TenDoiBong,@SoLuongCauThu,@SoCauThuNgoai,@TenSanNha)";
+            query += "INSERT INTO [chitietBXH] ([MaCTBXH], [MaDoiBong], [MaBXH], [Thang], [Hoa], [Thua], [HieuSo], [Diem], [Hang], [TongSBT])";
+            query += "VALUES (@MaCTBXH,@MaDoiBong,@MaBXH,@Thang,@Hoa,@Thua,@HieuSo,@Diem,@Hang,@TongSBT)";
             using (SqlConnection con = new SqlConnection(ConnectionString))
             {
                 using (SqlCommand cmd = new SqlCommand())
@@ -34,11 +34,16 @@ namespace QLBDDAL
                     cmd.Connection = con;
                     cmd.CommandType = System.Data.CommandType.Text;
                     cmd.CommandText = query;
-                    cmd.Parameters.AddWithValue("@MaDoiBong", db.MaDoiBong);
-                    cmd.Parameters.AddWithValue("@TenDoiBong", db.TenDoiBong);
-                    cmd.Parameters.AddWithValue("@SoLuongCauThu", db.SoLuongCauThu);
-                    cmd.Parameters.AddWithValue("@SoCauThuNgoai", db.SoCauThuNgoai);
-                    cmd.Parameters.AddWithValue("@TenSanNha", db.TenSanNha);
+                    cmd.Parameters.AddWithValue("@MaCTBXH", ctbxh.MaCTBXH);
+                    cmd.Parameters.AddWithValue("@MaDoiBong", ctbxh.MaDoiBong);
+                    cmd.Parameters.AddWithValue("@MaBXH", ctbxh.MaBXH);
+                    cmd.Parameters.AddWithValue("@Thang", ctbxh.Thang);
+                    cmd.Parameters.AddWithValue("@Hoa", ctbxh.Hoa);
+                    cmd.Parameters.AddWithValue("@Thua", ctbxh.Thua);
+                    cmd.Parameters.AddWithValue("@HieuSo", ctbxh.HieuSo);
+                    cmd.Parameters.AddWithValue("@Diem", ctbxh.Diem);
+                    cmd.Parameters.AddWithValue("@Hang", ctbxh.Hang);
+                    cmd.Parameters.AddWithValue("@TongSBT", ctbxh.TongSBT);
                     try
                     {
                         con.Open();
@@ -48,6 +53,7 @@ namespace QLBDDAL
                     }
                     catch (Exception ex)
                     {
+
                         con.Close();
                         return false;
                     }

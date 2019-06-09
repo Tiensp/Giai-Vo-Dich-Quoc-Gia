@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace QLBDDAL
 {
-    public class DoiBongDAL
+    public class TranDauDAL
     {
         private string connectionstring;
         public string ConnectionString
@@ -17,16 +17,16 @@ namespace QLBDDAL
             get { return connectionstring; }
             set { connectionstring = value; }
         }
-        public DoiBongDAL()
+        public TranDauDAL()
         {
             connectionstring = ConfigurationManager.AppSettings["ConnectionString"];
         }
 
-        public bool them(DoiBongDTO db)
+        public bool them(TranDauDTO td)
         {
             string query = string.Empty;
-            query += "INSERT INTO [doibong] ([MaDoiBong], [TenDoiBong], [SoLuongCauThu], [SoCauThuNgoai], [TenSanNha])";
-            query += "VALUES (@MaDoiBong,@TenDoiBong,@SoLuongCauThu,@SoCauThuNgoai,@TenSanNha)";
+            query += "INSERT INTO [trandau] ([MaTranDau], [MaDoiNha], [MaDoiKhach], [ThoiGian], [MaVongDau])";
+            query += "VALUES (@MaTranDau,@MaDoiNha,@MaDoiKhach,@ThoiGian,@MaVongDau)";
             using (SqlConnection con = new SqlConnection(ConnectionString))
             {
                 using (SqlCommand cmd = new SqlCommand())
@@ -34,11 +34,11 @@ namespace QLBDDAL
                     cmd.Connection = con;
                     cmd.CommandType = System.Data.CommandType.Text;
                     cmd.CommandText = query;
-                    cmd.Parameters.AddWithValue("@MaDoiBong", db.MaDoiBong);
-                    cmd.Parameters.AddWithValue("@TenDoiBong", db.TenDoiBong);
-                    cmd.Parameters.AddWithValue("@SoLuongCauThu", db.SoLuongCauThu);
-                    cmd.Parameters.AddWithValue("@SoCauThuNgoai", db.SoCauThuNgoai);
-                    cmd.Parameters.AddWithValue("@TenSanNha", db.TenSanNha);
+                    cmd.Parameters.AddWithValue("@MaTranDau", td.MaTranDau);
+                    cmd.Parameters.AddWithValue("@MaDoiNha", td.MaDoiNha);
+                    cmd.Parameters.AddWithValue("@MaDoiKhach", td.MaDoiKhach);
+                    cmd.Parameters.AddWithValue("@ThoiGian", td.ThoiGian);
+                    cmd.Parameters.AddWithValue("@MaVongDau", td.MaVongDau);
                     try
                     {
                         con.Open();
@@ -48,6 +48,7 @@ namespace QLBDDAL
                     }
                     catch (Exception ex)
                     {
+
                         con.Close();
                         return false;
                     }
