@@ -82,6 +82,7 @@
             this.button9.TabIndex = 18;
             this.button9.Text = "Lưu";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // textBox3
             // 
@@ -100,6 +101,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(249, 227);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(261, 22);
@@ -187,6 +189,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ThemCT";
             this.Text = "ThemCT";
+            this.Load += new System.EventHandler(this.ThemCT_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
