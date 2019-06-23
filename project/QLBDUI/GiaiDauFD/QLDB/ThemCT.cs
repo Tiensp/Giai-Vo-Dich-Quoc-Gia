@@ -28,7 +28,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
             this.Close();
             //data
         }
-        public CauThuDTO send_data()
+        public CauThuDTO send_data(int madoibong)
         {
             CauThuDTO ct = new CauThuDTO()
             {
@@ -36,8 +36,9 @@ namespace QLBDUI.GiaiDauFD.QLDB
                 TenCauThu = textBox2.Text,
                 NgaySinh = dateTimePicker1.Value,
                 TuoiCauThu = 1,
-                MaLoaiCT = 2,
-                GhiChu = textBox3.Text
+                MaLoaiCT = 12,
+                GhiChu = textBox3.Text,
+                MaDoiBong = madoibong
             };
             return ct;
         }

@@ -7,3 +7,12 @@ C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\bin\Debug\QLBDDTO.pdb
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.csproj.CopyComplete
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.dll
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDAL\obj\Debug\QLBDDAL.pdb
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDAL.dll
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDAL.pdb
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDTO.dll
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDTO.pdb
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csprojAssemblyReference.cache
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csproj.CoreCompileInputs.cache
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csproj.CopyComplete
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.dll
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.pdb

@@ -15,6 +15,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
     public partial class themMoiDB : Form
     {
         private DoiBongBUS dbBUS;
+        private CauThuBUS ctBUS;
         private List<CauThuDTO> ListCauThuSTO = new List<CauThuDTO>();
         ThemCT formthemCT = new ThemCT();
         public themMoiDB()
@@ -37,7 +38,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
             dbDTO.TenSanNha = textBox2.Text;
             //add data
             bool kt = dbBUS.them(dbDTO);
-            if(kt==false)
+            if (kt == false)
             {
                 MessageBox.Show("loi");
             }
@@ -45,11 +46,27 @@ namespace QLBDUI.GiaiDauFD.QLDB
             {
                 MessageBox.Show("ok");
             }
+
+            //add cầu thủ
+            for (int i = 0; i < ListCauThuSTO.Count; i++)
+            {
+                CauThuDTO ctDTO = ListCauThuSTO[i];
+                    bool kt1 = ctBUS.them(ctDTO);
+                    if (kt1 == false)
+                    {
+                        MessageBox.Show("loi them ct");
+                    }
+                    else
+                    {
+                         MessageBox.Show("ok");
+                    }
+            }
         }
 
         private void themMoiDB_Load(object sender, EventArgs e)
         {
             dbBUS = new DoiBongBUS();
+            ctBUS = new CauThuBUS();
             load_data_ct();
         }
         private void load_data_ct()
@@ -104,7 +121,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
 
         private void formthemCT_FormClosed(object sender, FormClosedEventArgs e)
         {
-            ListCauThuSTO.Add(formthemCT.send_data());
+            ListCauThuSTO.Add(formthemCT.send_data(int.Parse(textBox3.Text)));
             this.Show();
             load_data_ct();
         }
