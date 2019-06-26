@@ -20,5 +20,11 @@ namespace QLBDBUS
             bool re = ctDAL.them(ct);
             return re;
         }
+        public bool sua(CauThuDTO ct)
+        {
+            bool rt = ctDAL.sua(ct);
+            return rt;
+        }
+       
     }
 }

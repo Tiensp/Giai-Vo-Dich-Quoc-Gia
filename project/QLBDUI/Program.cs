@@ -16,7 +16,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new themMoiDB());
+            Application.Run(new TraCuu());
         }
     }
 }
