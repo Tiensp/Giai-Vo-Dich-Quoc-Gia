@@ -51,5 +51,35 @@ namespace QLBDDAL
             }
             return true;
         }
+
+        public bool lammoi()
+        {
+            string query = string.Empty;
+            query += "DELETE FROM dbo.bangxephang";
+            using (SqlConnection con = new SqlConnection(ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.Connection = con;
+                    cmd.CommandType = System.Data.CommandType.Text;
+                    cmd.CommandText = query;
+                    try
+                    {
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                        con.Dispose();
+                    }
+                    catch (Exception ex)
+                    {
+                        con.Close();
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
     }
 }

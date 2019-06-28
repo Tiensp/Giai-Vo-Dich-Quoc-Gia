@@ -20,5 +20,18 @@ namespace QLBDBUS
             bool re = lctDAL.them(lct);
             return re;
         }
+
+        public List<LoaiCauThuDTO> loadLoaiCT()
+        {
+            List<LoaiCauThuDTO> LoaiCT = lctDAL.loadLoaiCT();
+            return LoaiCT;
+        }
+        public bool lammoi()
+        {
+            bool re = lctDAL.lammoi();
+            return re;
+        }
+
+
     }
 }

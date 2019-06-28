@@ -20,5 +20,23 @@ namespace QLBDBUS
             bool re = dbDAL.them(db);
             return re;
         }
+
+        public bool capnhat(DoiBongDTO db)
+        {
+            bool re = dbDAL.capnhat(db); ;
+            return re;
+        }
+
+        public List<DoiBongDTO> load()
+        {
+            List<DoiBongDTO> db = dbDAL.Load();
+            return db;
+        }
+
+        public bool lammoi()
+        {
+            bool re = dbDAL.lammoi();
+            return re;
+        }
     }
 }

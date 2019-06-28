@@ -20,5 +20,12 @@ namespace QLBDBUS
             bool re = ctbxhDAL.them(ctbxh);
             return re;
         }
+
+        public bool lammoi()
+        {
+            bool re = ctbxhDAL.lammoi();
+            return re;
+        }
+
     }
 }

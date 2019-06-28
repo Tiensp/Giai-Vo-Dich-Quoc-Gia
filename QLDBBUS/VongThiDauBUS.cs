@@ -20,5 +20,11 @@ namespace QLBDBUS
             bool re = vtdDAL.them(vtd);
             return re;
         }
+        public bool lammoi()
+        {
+            bool re = vtdDAL.lammoi();
+            return re;
+        }
+
     }
 }
