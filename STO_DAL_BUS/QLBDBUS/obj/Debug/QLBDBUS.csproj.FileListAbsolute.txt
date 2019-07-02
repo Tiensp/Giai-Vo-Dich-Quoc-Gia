@@ -31,3 +31,14 @@ D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLB
 D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.csproj.CopyComplete
 D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.dll
 D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\bin\Debug\QLBDBUS.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\bin\Debug\QLBDBUS.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\bin\Debug\QLBDDAL.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\bin\Debug\QLBDDTO.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\bin\Debug\QLBDDAL.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\bin\Debug\QLBDDTO.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.csprojAssemblyReference.cache
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.csproj.CoreCompileInputs.cache
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.csproj.CopyComplete
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDBUS\obj\Debug\QLBDBUS.pdb

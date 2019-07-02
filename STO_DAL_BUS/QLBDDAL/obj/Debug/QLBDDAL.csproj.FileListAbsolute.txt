@@ -25,3 +25,12 @@ D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLB
 D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csproj.CopyComplete
 D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.dll
 D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDAL.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDAL.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDTO.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\bin\Debug\QLBDDTO.pdb
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csprojAssemblyReference.cache
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csproj.CoreCompileInputs.cache
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.csproj.CopyComplete
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.dll
+C:\Users\tiensp\Desktop\New folder\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDAL\obj\Debug\QLBDDAL.pdb

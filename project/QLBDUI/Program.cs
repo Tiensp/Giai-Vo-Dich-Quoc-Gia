@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLBDUI.GiaiDauFD.QuiDinh
+namespace QLBDUI.GiaiDauFD.QLDB
 {
     static class Program
     {
@@ -16,11 +16,7 @@ namespace QLBDUI.GiaiDauFD.QuiDinh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new ThayDoiQD());
-=======
-            Application.Run(new TraCuu());
->>>>>>> f331f90247622f667dcca016dbc7fb87abcdae1b
+            Application.Run(new themMoiDB());
         }
     }
 }
