@@ -4,3 +4,9 @@ C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.csprojAssemblyReferen
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.csproj.CoreCompileInputs.cache
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.dll
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.pdb
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\bin\Debug\QLBDDTO.dll
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\bin\Debug\QLBDDTO.pdb
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.csprojAssemblyReference.cache
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.csproj.CoreCompileInputs.cache
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.dll
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.pdb

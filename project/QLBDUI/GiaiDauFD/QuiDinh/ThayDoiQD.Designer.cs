@@ -29,117 +29,117 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.BackButt = new System.Windows.Forms.Button();
+            this.DefaultButt = new System.Windows.Forms.Button();
+            this.UpdateButt = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
+            this.DrawLabel = new System.Windows.Forms.Label();
+            this.LostLabel = new System.Windows.Forms.Label();
+            this.DrawNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.LostNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.WinNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.TTXH_DownButt = new System.Windows.Forms.Button();
+            this.TTXH_UpButt = new System.Windows.Forms.Button();
+            this.dataGridViewTTXH = new System.Windows.Forms.DataGridView();
+            this.TTXHLabel = new System.Windows.Forms.Label();
+            this.WinLabel = new System.Windows.Forms.Label();
+            this.LBTRemoveButt = new System.Windows.Forms.Button();
+            this.LBTAddButt = new System.Windows.Forms.Button();
+            this.dataGridViewLBT = new System.Windows.Forms.DataGridView();
+            this.LoaiBanThangLabel = new System.Windows.Forms.Label();
+            this.TGGhiBanMaxNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.TGGhiBanMaxLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.dataGridViewLCT = new System.Windows.Forms.DataGridView();
+            this.LoaiCTLabel = new System.Windows.Forms.Label();
+            this.SoCTNgoaiMaxNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.SoCTNgoaiMaxLabel = new System.Windows.Forms.Label();
+            this.SoLuongCTMaxNumericUD = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.SoLuongCTMinNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.SoLuongCTLabel = new System.Windows.Forms.Label();
+            this.TuoiCTMaxNumericUD = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.TuoiCTMinNumericUD = new System.Windows.Forms.NumericUpDown();
+            this.TuoiCTLabel = new System.Windows.Forms.Label();
+            this.FormLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrawNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LostNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WinNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTTXH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLBT)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TGGhiBanMaxNumericUD)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLCT)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoCTNgoaiMaxNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoLuongCTMaxNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoLuongCTMinNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TuoiCTMaxNumericUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TuoiCTMinNumericUD)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.BackButt);
+            this.panel1.Controls.Add(this.DefaultButt);
+            this.panel1.Controls.Add(this.UpdateButt);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.FormLabel);
             this.panel1.Location = new System.Drawing.Point(-1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(880, 665);
             this.panel1.TabIndex = 0;
             // 
-            // button9
+            // BackButt
             // 
-            this.button9.Location = new System.Drawing.Point(50, 582);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(126, 42);
-            this.button9.TabIndex = 29;
-            this.button9.Text = "Trở về";
-            this.button9.UseVisualStyleBackColor = true;
+            this.BackButt.Location = new System.Drawing.Point(50, 582);
+            this.BackButt.Name = "BackButt";
+            this.BackButt.Size = new System.Drawing.Size(126, 42);
+            this.BackButt.TabIndex = 29;
+            this.BackButt.Text = "Trở về";
+            this.BackButt.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // DefaultButt
             // 
-            this.button8.Location = new System.Drawing.Point(544, 582);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(126, 42);
-            this.button8.TabIndex = 22;
-            this.button8.Text = "Mặc định";
-            this.button8.UseVisualStyleBackColor = true;
+            this.DefaultButt.Location = new System.Drawing.Point(544, 582);
+            this.DefaultButt.Name = "DefaultButt";
+            this.DefaultButt.Size = new System.Drawing.Size(126, 42);
+            this.DefaultButt.TabIndex = 22;
+            this.DefaultButt.Text = "Mặc định";
+            this.DefaultButt.UseVisualStyleBackColor = true;
+            this.DefaultButt.Click += new System.EventHandler(this.DefaultButt_Click);
             // 
-            // button7
+            // UpdateButt
             // 
-            this.button7.Location = new System.Drawing.Point(700, 582);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(126, 42);
-            this.button7.TabIndex = 21;
-            this.button7.Text = "Cập nhật";
-            this.button7.UseVisualStyleBackColor = true;
+            this.UpdateButt.Location = new System.Drawing.Point(700, 582);
+            this.UpdateButt.Name = "UpdateButt";
+            this.UpdateButt.Size = new System.Drawing.Size(126, 42);
+            this.UpdateButt.TabIndex = 21;
+            this.UpdateButt.Text = "Cập nhật";
+            this.UpdateButt.UseVisualStyleBackColor = true;
+            this.UpdateButt.Click += new System.EventHandler(this.UpdateButt_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.numericUpDown9);
-            this.groupBox2.Controls.Add(this.numericUpDown8);
-            this.groupBox2.Controls.Add(this.numericUpDown7);
-            this.groupBox2.Controls.Add(this.button6);
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.dataGridView3);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.dataGridView2);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.numericUpDown6);
-            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.DrawLabel);
+            this.groupBox2.Controls.Add(this.LostLabel);
+            this.groupBox2.Controls.Add(this.DrawNumericUD);
+            this.groupBox2.Controls.Add(this.LostNumericUD);
+            this.groupBox2.Controls.Add(this.WinNumericUD);
+            this.groupBox2.Controls.Add(this.TTXH_DownButt);
+            this.groupBox2.Controls.Add(this.TTXH_UpButt);
+            this.groupBox2.Controls.Add(this.dataGridViewTTXH);
+            this.groupBox2.Controls.Add(this.TTXHLabel);
+            this.groupBox2.Controls.Add(this.WinLabel);
+            this.groupBox2.Controls.Add(this.LBTRemoveButt);
+            this.groupBox2.Controls.Add(this.LBTAddButt);
+            this.groupBox2.Controls.Add(this.dataGridViewLBT);
+            this.groupBox2.Controls.Add(this.LoaiBanThangLabel);
+            this.groupBox2.Controls.Add(this.TGGhiBanMaxNumericUD);
+            this.groupBox2.Controls.Add(this.TGGhiBanMaxLabel);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(50, 308);
             this.groupBox2.Name = "groupBox2";
@@ -148,162 +148,170 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Qui định bàn thắng - xếp hạng";
             // 
-            // label13
+            // DrawLabel
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(377, 151);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(80, 20);
-            this.label13.TabIndex = 26;
-            this.label13.Text = "Điểm hòa";
+            this.DrawLabel.AutoSize = true;
+            this.DrawLabel.Location = new System.Drawing.Point(310, 151);
+            this.DrawLabel.Name = "DrawLabel";
+            this.DrawLabel.Size = new System.Drawing.Size(80, 20);
+            this.DrawLabel.TabIndex = 26;
+            this.DrawLabel.Text = "Điểm hòa";
             // 
-            // label12
+            // LostLabel
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(377, 198);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 20);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "Điểm thua";
+            this.LostLabel.AutoSize = true;
+            this.LostLabel.Location = new System.Drawing.Point(310, 198);
+            this.LostLabel.Name = "LostLabel";
+            this.LostLabel.Size = new System.Drawing.Size(85, 20);
+            this.LostLabel.TabIndex = 25;
+            this.LostLabel.Text = "Điểm thua";
             // 
-            // numericUpDown9
+            // DrawNumericUD
             // 
-            this.numericUpDown9.Location = new System.Drawing.Point(477, 149);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown9.TabIndex = 24;
+            this.DrawNumericUD.Location = new System.Drawing.Point(418, 149);
+            this.DrawNumericUD.Name = "DrawNumericUD";
+            this.DrawNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.DrawNumericUD.TabIndex = 24;
+            this.DrawNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // numericUpDown8
+            // LostNumericUD
             // 
-            this.numericUpDown8.Location = new System.Drawing.Point(477, 196);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown8.TabIndex = 23;
+            this.LostNumericUD.Location = new System.Drawing.Point(417, 196);
+            this.LostNumericUD.Name = "LostNumericUD";
+            this.LostNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.LostNumericUD.TabIndex = 23;
+            this.LostNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // numericUpDown7
+            // WinNumericUD
             // 
-            this.numericUpDown7.Location = new System.Drawing.Point(477, 103);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown7.TabIndex = 22;
+            this.WinNumericUD.Location = new System.Drawing.Point(418, 103);
+            this.WinNumericUD.Name = "WinNumericUD";
+            this.WinNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.WinNumericUD.TabIndex = 22;
+            this.WinNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button6
+            // TTXH_DownButt
             // 
-            this.button6.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Download;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Location = new System.Drawing.Point(706, 149);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(45, 36);
-            this.button6.TabIndex = 21;
-            this.button6.UseVisualStyleBackColor = true;
+            this.TTXH_DownButt.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Download;
+            this.TTXH_DownButt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TTXH_DownButt.Location = new System.Drawing.Point(719, 149);
+            this.TTXH_DownButt.Name = "TTXH_DownButt";
+            this.TTXH_DownButt.Size = new System.Drawing.Size(45, 36);
+            this.TTXH_DownButt.TabIndex = 21;
+            this.TTXH_DownButt.UseVisualStyleBackColor = true;
+            this.TTXH_DownButt.Click += new System.EventHandler(this.TTXH_DownButt_Click);
             // 
-            // button5
+            // TTXH_UpButt
             // 
-            this.button5.BackgroundImage = global::QLBDUI.Properties.Resources.Saki_NuoveXT_2_Actions_arrow_up;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Location = new System.Drawing.Point(706, 97);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(45, 36);
-            this.button5.TabIndex = 20;
-            this.button5.UseVisualStyleBackColor = true;
+            this.TTXH_UpButt.BackgroundImage = global::QLBDUI.Properties.Resources.Saki_NuoveXT_2_Actions_arrow_up;
+            this.TTXH_UpButt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TTXH_UpButt.Location = new System.Drawing.Point(719, 97);
+            this.TTXH_UpButt.Name = "TTXH_UpButt";
+            this.TTXH_UpButt.Size = new System.Drawing.Size(45, 36);
+            this.TTXH_UpButt.TabIndex = 20;
+            this.TTXH_UpButt.UseVisualStyleBackColor = true;
+            this.TTXH_UpButt.Click += new System.EventHandler(this.TTXH_UpButt_Click);
             // 
-            // dataGridView3
+            // dataGridViewTTXH
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(550, 63);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(150, 160);
-            this.dataGridView3.TabIndex = 19;
+            this.dataGridViewTTXH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewTTXH.Location = new System.Drawing.Point(485, 63);
+            this.dataGridViewTTXH.Name = "dataGridViewTTXH";
+            this.dataGridViewTTXH.RowHeadersWidth = 51;
+            this.dataGridViewTTXH.RowTemplate.Height = 24;
+            this.dataGridViewTTXH.Size = new System.Drawing.Size(228, 160);
+            this.dataGridViewTTXH.TabIndex = 19;
             // 
-            // label11
+            // TTXHLabel
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(557, 40);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(128, 20);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Thứ tự xếp hạng";
+            this.TTXHLabel.AutoSize = true;
+            this.TTXHLabel.Location = new System.Drawing.Point(536, 40);
+            this.TTXHLabel.Name = "TTXHLabel";
+            this.TTXHLabel.Size = new System.Drawing.Size(128, 20);
+            this.TTXHLabel.TabIndex = 18;
+            this.TTXHLabel.Text = "Thứ tự xếp hạng";
             // 
-            // label10
+            // WinLabel
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(377, 105);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(94, 20);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Điểm thắng";
+            this.WinLabel.AutoSize = true;
+            this.WinLabel.Location = new System.Drawing.Point(310, 105);
+            this.WinLabel.Name = "WinLabel";
+            this.WinLabel.Size = new System.Drawing.Size(94, 20);
+            this.WinLabel.TabIndex = 17;
+            this.WinLabel.Text = "Điểm thắng";
             // 
-            // button4
+            // LBTRemoveButt
             // 
-            this.button4.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Button_Button_Delete;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(275, 173);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(45, 36);
-            this.button4.TabIndex = 16;
-            this.button4.UseVisualStyleBackColor = true;
+            this.LBTRemoveButt.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Button_Button_Delete;
+            this.LBTRemoveButt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LBTRemoveButt.Location = new System.Drawing.Point(224, 173);
+            this.LBTRemoveButt.Name = "LBTRemoveButt";
+            this.LBTRemoveButt.Size = new System.Drawing.Size(45, 36);
+            this.LBTRemoveButt.TabIndex = 16;
+            this.LBTRemoveButt.UseVisualStyleBackColor = true;
+            this.LBTRemoveButt.Click += new System.EventHandler(this.LBTRemoveButt_Click);
             // 
-            // button1
+            // LBTAddButt
             // 
-            this.button1.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Button_Button_Add1;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(275, 122);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 36);
-            this.button1.TabIndex = 15;
-            this.button1.UseVisualStyleBackColor = true;
+            this.LBTAddButt.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Button_Button_Add1;
+            this.LBTAddButt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LBTAddButt.Location = new System.Drawing.Point(223, 122);
+            this.LBTAddButt.Name = "LBTAddButt";
+            this.LBTAddButt.Size = new System.Drawing.Size(45, 36);
+            this.LBTAddButt.TabIndex = 15;
+            this.LBTAddButt.UseVisualStyleBackColor = true;
+            this.LBTAddButt.Click += new System.EventHandler(this.LBTAddButt_Click);
             // 
-            // dataGridView2
+            // dataGridViewLBT
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(42, 105);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(227, 118);
-            this.dataGridView2.TabIndex = 13;
+            this.dataGridViewLBT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewLBT.Location = new System.Drawing.Point(52, 105);
+            this.dataGridViewLBT.Name = "dataGridViewLBT";
+            this.dataGridViewLBT.RowHeadersWidth = 51;
+            this.dataGridViewLBT.RowTemplate.Height = 24;
+            this.dataGridViewLBT.Size = new System.Drawing.Size(161, 118);
+            this.dataGridViewLBT.TabIndex = 13;
             // 
-            // label9
+            // LoaiBanThangLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(58, 82);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(199, 20);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Danh sách loại bàn thắng";
+            this.LoaiBanThangLabel.AutoSize = true;
+            this.LoaiBanThangLabel.Location = new System.Drawing.Point(38, 82);
+            this.LoaiBanThangLabel.Name = "LoaiBanThangLabel";
+            this.LoaiBanThangLabel.Size = new System.Drawing.Size(199, 20);
+            this.LoaiBanThangLabel.TabIndex = 12;
+            this.LoaiBanThangLabel.Text = "Danh sách loại bàn thắng";
             // 
-            // numericUpDown6
+            // TGGhiBanMaxNumericUD
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(227, 38);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown6.TabIndex = 11;
+            this.TGGhiBanMaxNumericUD.Location = new System.Drawing.Point(236, 38);
+            this.TGGhiBanMaxNumericUD.Name = "TGGhiBanMaxNumericUD";
+            this.TGGhiBanMaxNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.TGGhiBanMaxNumericUD.TabIndex = 11;
+            this.TGGhiBanMaxNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label8
+            // TGGhiBanMaxLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(38, 40);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(187, 20);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Thời điểm ghi bàn tối đa";
+            this.TGGhiBanMaxLabel.AutoSize = true;
+            this.TGGhiBanMaxLabel.Location = new System.Drawing.Point(38, 40);
+            this.TGGhiBanMaxLabel.Name = "TGGhiBanMaxLabel";
+            this.TGGhiBanMaxLabel.Size = new System.Drawing.Size(187, 20);
+            this.TGGhiBanMaxLabel.TabIndex = 2;
+            this.TGGhiBanMaxLabel.Text = "Thời điểm ghi bàn tối đa";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.numericUpDown5);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.numericUpDown4);
+            this.groupBox1.Controls.Add(this.dataGridViewLCT);
+            this.groupBox1.Controls.Add(this.LoaiCTLabel);
+            this.groupBox1.Controls.Add(this.SoCTNgoaiMaxNumericUD);
+            this.groupBox1.Controls.Add(this.SoCTNgoaiMaxLabel);
+            this.groupBox1.Controls.Add(this.SoLuongCTMaxNumericUD);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.numericUpDown3);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.numericUpDown2);
+            this.groupBox1.Controls.Add(this.SoLuongCTMinNumericUD);
+            this.groupBox1.Controls.Add(this.SoLuongCTLabel);
+            this.groupBox1.Controls.Add(this.TuoiCTMaxNumericUD);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.TuoiCTMinNumericUD);
+            this.groupBox1.Controls.Add(this.TuoiCTLabel);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(50, 97);
             this.groupBox1.Name = "groupBox1";
@@ -312,134 +320,119 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " Qui định tiếp nhận hồ sơ đội bóng";
             // 
-            // button3
+            // dataGridViewLCT
             // 
-            this.button3.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Button_Button_Delete;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(691, 113);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(45, 36);
-            this.button3.TabIndex = 15;
-            this.button3.UseVisualStyleBackColor = true;
+            this.dataGridViewLCT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewLCT.Location = new System.Drawing.Point(485, 46);
+            this.dataGridViewLCT.Name = "dataGridViewLCT";
+            this.dataGridViewLCT.RowHeadersWidth = 51;
+            this.dataGridViewLCT.RowTemplate.Height = 24;
+            this.dataGridViewLCT.Size = new System.Drawing.Size(228, 118);
+            this.dataGridViewLCT.TabIndex = 12;
             // 
-            // button2
+            // LoaiCTLabel
             // 
-            this.button2.BackgroundImage = global::QLBDUI.Properties.Resources.Hopstarter_Button_Button_Add;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(691, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(45, 36);
-            this.button2.TabIndex = 14;
-            this.button2.UseVisualStyleBackColor = true;
+            this.LoaiCTLabel.AutoSize = true;
+            this.LoaiCTLabel.Location = new System.Drawing.Point(508, 23);
+            this.LoaiCTLabel.Name = "LoaiCTLabel";
+            this.LoaiCTLabel.Size = new System.Drawing.Size(181, 20);
+            this.LoaiCTLabel.TabIndex = 11;
+            this.LoaiCTLabel.Text = "Danh sách loại cầu thủ";
             // 
-            // dataGridView1
+            // SoCTNgoaiMaxNumericUD
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(458, 46);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(227, 118);
-            this.dataGridView1.TabIndex = 12;
+            this.SoCTNgoaiMaxNumericUD.Location = new System.Drawing.Point(345, 137);
+            this.SoCTNgoaiMaxNumericUD.Name = "SoCTNgoaiMaxNumericUD";
+            this.SoCTNgoaiMaxNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.SoCTNgoaiMaxNumericUD.TabIndex = 10;
+            this.SoCTNgoaiMaxNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label7
+            // SoCTNgoaiMaxLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(478, 23);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(181, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Danh sách loại cầu thủ";
+            this.SoCTNgoaiMaxLabel.AutoSize = true;
+            this.SoCTNgoaiMaxLabel.Location = new System.Drawing.Point(38, 139);
+            this.SoCTNgoaiMaxLabel.Name = "SoCTNgoaiMaxLabel";
+            this.SoCTNgoaiMaxLabel.Size = new System.Drawing.Size(266, 20);
+            this.SoCTNgoaiMaxLabel.TabIndex = 9;
+            this.SoCTNgoaiMaxLabel.Text = "Số lượng cầu thủ nước ngoài tối đa";
             // 
-            // numericUpDown5
+            // SoLuongCTMaxNumericUD
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(326, 137);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown5.TabIndex = 10;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(38, 139);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(266, 20);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Số lượng cầu thủ nước ngoài tối đa";
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Location = new System.Drawing.Point(326, 90);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown4.TabIndex = 8;
+            this.SoLuongCTMaxNumericUD.Location = new System.Drawing.Point(345, 90);
+            this.SoLuongCTMaxNumericUD.Name = "SoLuongCTMaxNumericUD";
+            this.SoLuongCTMaxNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.SoLuongCTMaxNumericUD.TabIndex = 8;
+            this.SoLuongCTMaxNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(284, 92);
+            this.label5.Location = new System.Drawing.Point(295, 92);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(36, 20);
             this.label5.TabIndex = 7;
             this.label5.Text = "đến";
             // 
-            // numericUpDown3
+            // SoLuongCTMinNumericUD
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(227, 90);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown3.TabIndex = 6;
+            this.SoLuongCTMinNumericUD.Location = new System.Drawing.Point(236, 90);
+            this.SoLuongCTMinNumericUD.Name = "SoLuongCTMinNumericUD";
+            this.SoLuongCTMinNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.SoLuongCTMinNumericUD.TabIndex = 6;
+            this.SoLuongCTMinNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label4
+            // SoLuongCTLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 92);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(134, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Số lượng cầu thủ";
+            this.SoLuongCTLabel.AutoSize = true;
+            this.SoLuongCTLabel.Location = new System.Drawing.Point(38, 92);
+            this.SoLuongCTLabel.Name = "SoLuongCTLabel";
+            this.SoLuongCTLabel.Size = new System.Drawing.Size(134, 20);
+            this.SoLuongCTLabel.TabIndex = 5;
+            this.SoLuongCTLabel.Text = "Số lượng cầu thủ";
             // 
-            // numericUpDown2
+            // TuoiCTMaxNumericUD
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(326, 42);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown2.TabIndex = 4;
+            this.TuoiCTMaxNumericUD.Location = new System.Drawing.Point(345, 40);
+            this.TuoiCTMaxNumericUD.Name = "TuoiCTMaxNumericUD";
+            this.TuoiCTMaxNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.TuoiCTMaxNumericUD.TabIndex = 4;
+            this.TuoiCTMaxNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(284, 44);
+            this.label3.Location = new System.Drawing.Point(295, 43);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "đến";
             // 
-            // numericUpDown1
+            // TuoiCTMinNumericUD
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(227, 42);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(51, 27);
-            this.numericUpDown1.TabIndex = 2;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.TuoiCTMinNumericUD.Location = new System.Drawing.Point(236, 40);
+            this.TuoiCTMinNumericUD.Name = "TuoiCTMinNumericUD";
+            this.TuoiCTMinNumericUD.Size = new System.Drawing.Size(51, 27);
+            this.TuoiCTMinNumericUD.TabIndex = 2;
+            this.TuoiCTMinNumericUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label2
+            // TuoiCTLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Độ tuổi cầu thủ";
+            this.TuoiCTLabel.AutoSize = true;
+            this.TuoiCTLabel.Location = new System.Drawing.Point(38, 42);
+            this.TuoiCTLabel.Name = "TuoiCTLabel";
+            this.TuoiCTLabel.Size = new System.Drawing.Size(122, 20);
+            this.TuoiCTLabel.TabIndex = 1;
+            this.TuoiCTLabel.Text = "Độ tuổi cầu thủ";
             // 
-            // label1
+            // FormLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(303, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 32);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Thay đổi qui định";
+            this.FormLabel.AutoSize = true;
+            this.FormLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormLabel.Location = new System.Drawing.Point(303, 31);
+            this.FormLabel.Name = "FormLabel";
+            this.FormLabel.Size = new System.Drawing.Size(232, 32);
+            this.FormLabel.TabIndex = 2;
+            this.FormLabel.Text = "Thay đổi qui định";
             // 
             // ThayDoiQD
             // 
@@ -449,24 +442,25 @@
             this.Controls.Add(this.panel1);
             this.Name = "ThayDoiQD";
             this.Text = "ThayDoiQD";
+            this.Load += new System.EventHandler(this.ThayDoiQD_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrawNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LostNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WinNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTTXH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLBT)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TGGhiBanMaxNumericUD)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLCT)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoCTNgoaiMaxNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoLuongCTMaxNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoLuongCTMinNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TuoiCTMaxNumericUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TuoiCTMinNumericUD)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -475,40 +469,38 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.Label FormLabel;
+        private System.Windows.Forms.Label SoLuongCTLabel;
+        private System.Windows.Forms.NumericUpDown TuoiCTMaxNumericUD;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown TuoiCTMinNumericUD;
+        private System.Windows.Forms.Label TuoiCTLabel;
+        private System.Windows.Forms.NumericUpDown SoCTNgoaiMaxNumericUD;
+        private System.Windows.Forms.Label SoCTNgoaiMaxLabel;
+        private System.Windows.Forms.NumericUpDown SoLuongCTMaxNumericUD;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown SoLuongCTMinNumericUD;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label DrawLabel;
+        private System.Windows.Forms.Label LostLabel;
+        private System.Windows.Forms.NumericUpDown DrawNumericUD;
+        private System.Windows.Forms.NumericUpDown LostNumericUD;
+        private System.Windows.Forms.NumericUpDown WinNumericUD;
+        private System.Windows.Forms.Button TTXH_DownButt;
+        private System.Windows.Forms.Button TTXH_UpButt;
+        private System.Windows.Forms.DataGridView dataGridViewTTXH;
+        private System.Windows.Forms.Label TTXHLabel;
+        private System.Windows.Forms.Label WinLabel;
+        private System.Windows.Forms.Button LBTRemoveButt;
+        private System.Windows.Forms.Button LBTAddButt;
+        private System.Windows.Forms.DataGridView dataGridViewLBT;
+        private System.Windows.Forms.Label LoaiBanThangLabel;
+        private System.Windows.Forms.NumericUpDown TGGhiBanMaxNumericUD;
+        private System.Windows.Forms.Label TGGhiBanMaxLabel;
+        private System.Windows.Forms.DataGridView dataGridViewLCT;
+        private System.Windows.Forms.Label LoaiCTLabel;
+        private System.Windows.Forms.Button UpdateButt;
+        private System.Windows.Forms.Button DefaultButt;
+        private System.Windows.Forms.Button BackButt;
     }
 }

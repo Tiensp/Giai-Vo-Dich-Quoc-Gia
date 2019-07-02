@@ -32,7 +32,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
         {
             ///
             DoiBongDTO dbDTO = new DoiBongDTO();
-            dbDTO.MaDoiBong = int.Parse(textBox3.Text);
+            dbDTO.MaDoiBong = textBox3.Text;
             dbDTO.TenDoiBong = textBox1.Text;
             dbDTO.SoLuongCauThu = int.Parse(textBox4.Text);
             dbDTO.TenSanNha = textBox2.Text;
@@ -121,7 +121,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
 
         private void formthemCT_FormClosed(object sender, FormClosedEventArgs e)
         {
-            ListCauThuSTO.Add(formthemCT.send_data(int.Parse(textBox3.Text)));
+            ListCauThuSTO.Add(formthemCT.send_data(textBox3.Text));
             this.Show();
             load_data_ct();
         }

@@ -8,16 +8,16 @@ namespace QLBDDTO
 {
     public class TranDauDTO
     {
-        private int matrandau;
-        private int madoinha;
-        private int madoikhach;
-        private int mavongdau;
+        private string matrandau;
+        private string madoinha;
+        private string madoikhach;
+        private string mavongdau;
         private DateTime thoigian;
 
-        public int MaTranDau { get => matrandau; set => matrandau = value; }
-        public int MaDoiNha { get => madoinha; set => madoinha = value; }
-        public int MaDoiKhach { get => madoikhach; set => madoikhach = value; }
-        public int MaVongDau { get => mavongdau; set => mavongdau = value; }
+        public string MaTranDau { get => matrandau; set => matrandau = value; }
+        public string MaDoiNha { get => madoinha; set => madoinha = value; }
+        public string MaDoiKhach { get => madoikhach; set => madoikhach = value; }
+        public string MaVongDau { get => mavongdau; set => mavongdau = value; }
         public DateTime ThoiGian { get => thoigian ; set => thoigian = value; }
 
     }

@@ -28,15 +28,15 @@ namespace QLBDUI.GiaiDauFD.QLDB
             this.Close();
             //data
         }
-        public CauThuDTO send_data(int madoibong)
+        public CauThuDTO send_data(string madoibong)
         {
             CauThuDTO ct = new CauThuDTO()
             {
-                MaCauThu = int.Parse(textBox1.Text),
+                MaCauThu = textBox1.Text,
                 TenCauThu = textBox2.Text,
                 NgaySinh = dateTimePicker1.Value,
                 TuoiCauThu = 1,
-                MaLoaiCT = 12,
+                MaLoaiCT = "12",
                 GhiChu = textBox3.Text,
                 MaDoiBong = madoibong
             };

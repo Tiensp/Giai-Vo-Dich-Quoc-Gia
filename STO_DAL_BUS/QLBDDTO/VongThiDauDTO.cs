@@ -8,9 +8,9 @@ namespace QLBDDTO
 {
     public class VongThiDauDTO
     {
-        private int mavongdau;
+        private string mavongdau;
         private string tenvongdau;
-        public int MaVongDau { get => mavongdau; set => mavongdau = value; }
+        public string MaVongDau { get => mavongdau; set => mavongdau = value; }
         public string TenVongDau { get => tenvongdau; set => tenvongdau = value; }
     }
 }

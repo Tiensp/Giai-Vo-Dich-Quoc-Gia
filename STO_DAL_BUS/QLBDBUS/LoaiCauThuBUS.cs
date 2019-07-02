@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 
 namespace QLBDBUS
 {
@@ -19,6 +20,11 @@ namespace QLBDBUS
         {
             bool re = lctDAL.them(lct);
             return re;
+        }
+        public DataSet getData()
+        {
+            DataSet ds = lctDAL.getData();
+            return ds;
         }
     }
 }

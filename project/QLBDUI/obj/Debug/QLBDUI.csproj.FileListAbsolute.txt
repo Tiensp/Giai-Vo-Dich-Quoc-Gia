@@ -68,3 +68,4 @@ C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.cs
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.csproj.CopyComplete
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.exe
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.pdb
+C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QuiDinh.ThemLoaiBT.resources

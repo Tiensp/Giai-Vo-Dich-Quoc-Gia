@@ -8,9 +8,9 @@ namespace QLBDDTO
 {
     public class LoaiCauThuDTO
     {
-        private int maloaict;
+        private string maloaict;
         private string loaicauthu;
-        public int MaLoaiCT { get => maloaict; set => maloaict = value; }
+        public string MaLoaiCT { get => maloaict; set => maloaict = value; }
         public string LoaiCauThu { get => loaicauthu ; set => loaicauthu = value; }
     }
 }

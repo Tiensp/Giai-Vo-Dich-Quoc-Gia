@@ -8,9 +8,9 @@ namespace QLBDDTO
 {
     public class ChiTietBXHDTO
     {
-        private int mactbxh;
-        private int madoibong;
-        private int mabxh;
+        private string mactbxh;
+        private string madoibong;
+        private string mabxh;
         private int thang;
         private int hoa;
         private int thua;
@@ -19,9 +19,9 @@ namespace QLBDDTO
         private int hang;
         private int tongsbt;
 
-        public int MaCTBXH { get => mactbxh; set => mactbxh = value; }
-        public int MaDoiBong { get => madoibong; set => madoibong = value; }
-        public int MaBXH { get => mabxh; set => mabxh = value; }
+        public string MaCTBXH { get => mactbxh; set => mactbxh = value; }
+        public string MaDoiBong { get => madoibong; set => madoibong = value; }
+        public string MaBXH { get => mabxh; set => mabxh = value; }
         public int Thang { get => thang; set => thang = value; }
         public int Hoa { get => hoa; set => hoa = value; }
         public int Thua { get => thua; set => thua = value; }

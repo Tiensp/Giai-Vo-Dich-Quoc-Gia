@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -52,5 +53,31 @@ namespace QLBDDAL
             }
             return true;
         }
+
+
+        public DataSet getData() //hàm lấy dữ liệu từ dtb trả về DataSet
+        {
+            DataSet ds = new DataSet();
+            string query = string.Empty;
+            query += "SELECT * FROM loaicauthu";
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    da.Fill(ds, "LCT");
+                    conn.Close();
+                    conn.Dispose();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                
+            }
+            return ds;
+        }
+        
     }
 }
