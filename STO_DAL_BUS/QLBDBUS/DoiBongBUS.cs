@@ -20,10 +20,5 @@ namespace QLBDBUS
             bool re = dbDAL.them(db);
             return re;
         }
-        public bool sua(DoiBongDTO db)
-        {
-            bool rt = dbDAL.sua(db);
-            return rt;
-        }
     }
 }

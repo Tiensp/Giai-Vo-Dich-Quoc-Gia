@@ -4,18 +4,9 @@ C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.csprojAssemblyReferen
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.csproj.CoreCompileInputs.cache
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.dll
 C:\Users\DongTran\Desktop\nmcnpm\QLBDDTO\obj\Debug\QLBDDTO.pdb
-<<<<<<< HEAD
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\bin\Debug\QLBDDTO.dll
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\bin\Debug\QLBDDTO.pdb
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.csprojAssemblyReference.cache
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.csproj.CoreCompileInputs.cache
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.dll
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.pdb
-=======
-D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\bin\Debug\QLBDDTO.dll
-D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\bin\Debug\QLBDDTO.pdb
-D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.csprojAssemblyReference.cache
-D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.csproj.CoreCompileInputs.cache
-D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.dll
-D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\STO_DAL_BUS\QLBDDTO\obj\Debug\QLBDDTO.pdb
->>>>>>> f331f90247622f667dcca016dbc7fb87abcdae1b

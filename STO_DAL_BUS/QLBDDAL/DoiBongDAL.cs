@@ -55,38 +55,5 @@ namespace QLBDDAL
             }
             return true;
         }
-        public bool sua(DoiBongDTO db)
-        {
-            string query = string.Empty;
-            query += "UPDATE [doibong] SET [TenDoiBong]=@TenDoiBong, [SoLuongCauThu]=@SoLuongCauThu, [SoCauThuNgoai]=@SoCauThuNgoai, [TenSanNha]=@TenSanNha WHERE [MaDoiBong]=@MaDoiBong;";
-            
-            using (SqlConnection con = new SqlConnection(ConnectionString))
-            {
-                using (SqlCommand cmd = new SqlCommand())
-                {
-                    cmd.Connection = con;
-                    cmd.CommandType = System.Data.CommandType.Text;
-                    cmd.CommandText = query;
-                    cmd.Parameters.AddWithValue("@MaDoiBong", db.MaDoiBong);
-                    cmd.Parameters.AddWithValue("@TenDoiBong", db.TenDoiBong);
-                    cmd.Parameters.AddWithValue("@SoLuongCauThu", db.SoLuongCauThu);
-                    cmd.Parameters.AddWithValue("@SoCauThuNgoai", db.SoCauThuNgoai);
-                    cmd.Parameters.AddWithValue("@TenSanNha", db.TenSanNha);
-                    try
-                    {
-                        con.Open();
-                        cmd.ExecuteNonQuery();
-                        con.Close();
-                        con.Dispose();
-                    }
-                    catch (Exception ex)
-                    {
-                        con.Close();
-                        return false;
-                    }
-                }
-            }
-            return true;
-        }
     }
 }

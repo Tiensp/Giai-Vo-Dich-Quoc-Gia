@@ -16,6 +16,5 @@ namespace QLBDUI.GiaiDauFD.QLDB
         {
             InitializeComponent();
         }
-
     }
 }
