@@ -16,7 +16,7 @@ namespace QLBDUI.GiaiDauFD.QLDB
     {
         private DoiBongBUS dbBUS;
         private CauThuBUS ctBUS;
-        private List<CauThuDTO> ListCauThuSTO = new List<CauThuDTO>();
+        public List<CauThuDTO> ListCauThuSTO = new List<CauThuDTO>();
         ThemCT formthemCT = new ThemCT();
         public themMoiDB()
         {
@@ -44,13 +44,10 @@ namespace QLBDUI.GiaiDauFD.QLDB
             }
             else
             {
-                MessageBox.Show("ok");
-            }
-
-            //add cầu thủ
-            for (int i = 0; i < ListCauThuSTO.Count; i++)
-            {
-                CauThuDTO ctDTO = ListCauThuSTO[i];
+                //add cầu thủ
+                for (int i = 0; i < ListCauThuSTO.Count; i++)
+                {
+                    CauThuDTO ctDTO = ListCauThuSTO[i];
                     bool kt1 = ctBUS.them(ctDTO);
                     if (kt1 == false)
                     {
@@ -58,9 +55,13 @@ namespace QLBDUI.GiaiDauFD.QLDB
                     }
                     else
                     {
-                         MessageBox.Show("ok");
+                        MessageBox.Show("ok");
                     }
+                }
             }
+
+            
+           
         }
 
         private void themMoiDB_Load(object sender, EventArgs e)

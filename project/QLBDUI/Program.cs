@@ -16,7 +16,11 @@ namespace QLBDUI.GiaiDauFD.QuiDinh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new ThayDoiQD());
+=======
+            Application.Run(new TraCuu());
+>>>>>>> f331f90247622f667dcca016dbc7fb87abcdae1b
         }
     }
 }
