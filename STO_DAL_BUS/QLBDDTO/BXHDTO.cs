@@ -8,9 +8,9 @@ namespace QLBDDTO
 {
     public class BXHDTO
     {
-        private string mabxh;
+        private int mabxh;
         private DateTime ngaygio;
-        public string MaBXH { get => mabxh; set => mabxh = value; }
+        public int MaBXH { get => mabxh; set => mabxh = value; }
         public DateTime NgayGio { get => ngaygio; set => ngaygio = value; }
     }
 }

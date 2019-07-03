@@ -118,3 +118,5 @@ alter table banthang add constraint BT_LBT_FK foreign key (MaLoaiBT) references 
 --- khóa ngoại bảng CTBXH ---
 alter table chitietBXH add constraint CTBXH_BXH_FK foreign key (MaBXH) references bangxephang (MaBXH)
 alter table chitietBXH add constraint CTBXH_DB_FK foreign key (MaDoiBong) references doibong (MaDoiBong)
+
+SELECT MaCauThu, TenCauThu, NgaySinh, db.TenDoiBong, lct.LoaiCauThu, TuoiCauThu, TongSoBT  from cauthu ct, doibong db, loaicauthu lct WHERE ct.MaDoiBong = db.MaDoiBong and lct.MaLoaiCT = ct.MaLoaiCT and ct.TenCauThu like '%l%' and MaCauThu like '%7%' and db.TenDoiBong like '%T%' and lct.LoaiCauThu like '%ng%' and TongSoBT like '%0%'

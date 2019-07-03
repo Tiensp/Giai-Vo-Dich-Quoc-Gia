@@ -68,4 +68,73 @@ C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.cs
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.csproj.CopyComplete
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.exe
 C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.pdb
-C:\Users\tiensp\Desktop\Giai-Vo-Dich-Quoc-Gia\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QuiDinh.ThemLoaiBT.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDUI.exe.config
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDUI.exe
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDUI.pdb
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDBUS.dll
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDTO.dll
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDAL.dll
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDBUS.pdb
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDTO.pdb
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDAL.pdb
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csprojAssemblyReference.cache
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.CapNhatKQ.GhiNhanKQ.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.CapNhatKQ.ThemCTGB.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.DSCTGB.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapBXH.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.capNhatCT.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapLichTD.CapNhatTranDau.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.ChinhSuaDB.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.DoiBong.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QuiDinh.ThayDoiQD.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.Login.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.GiaiDau.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapLichTD.lapLich.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.MainDisplay.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.Properties.Resources.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.quanlyDoiBong.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.taoGiaiDau.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.ThemCT.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.themMoiDB.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapLichTD.ThemTranDau.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.TraCuu.resources
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csproj.GenerateResource.cache
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csproj.CoreCompileInputs.cache
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csproj.CopyComplete
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.exe
+D:\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.pdb
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDUI.exe.config
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDUI.exe
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDUI.pdb
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDBUS.dll
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDTO.dll
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDAL.dll
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDBUS.pdb
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDTO.pdb
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\bin\Debug\QLBDDAL.pdb
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csprojAssemblyReference.cache
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.CapNhatKQ.GhiNhanKQ.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.CapNhatKQ.ThemCTGB.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.DSCTGB.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapBXH.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.capNhatCT.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapLichTD.CapNhatTranDau.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.ChinhSuaDB.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.DoiBong.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QuiDinh.ThayDoiQD.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.Login.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.GiaiDau.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapLichTD.lapLich.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.MainDisplay.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.Properties.Resources.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.quanlyDoiBong.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.taoGiaiDau.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.ThemCT.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.QLDB.themMoiDB.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.GiaiDauFD.LapLichTD.ThemTranDau.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.TraCuu.resources
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csproj.GenerateResource.cache
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csproj.CoreCompileInputs.cache
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.csproj.CopyComplete
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.exe
+E:\React Native\Giai-Vo-Dich-Quoc-Gia-master (2)\Giai-Vo-Dich-Quoc-Gia-master\project\QLBDUI\obj\Debug\QLBDUI.pdb

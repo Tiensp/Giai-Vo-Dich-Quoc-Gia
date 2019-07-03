@@ -95,20 +95,12 @@ create table chitietBXH(
 )
 --- bảng tham số ---
 create table ThamSo(
-	MaThamSo char(4),
 	TuoiCTMin int,
 	TuoiCTMax int,
 	SoLuongCTMin int,
 	SoLuongCTMax int,
 	SoCTNgoaiMax int,
-	TGGhiBanMax int,
-	DiemThang int,
-	DiemHoa int,
-	DiemThua int,
-	Diem int,
-	HieuSo int,
-	BTSK int,
-	KQDK int
+	TGGhiBanMax int
 )
 ---khóa ngoại bảng cầu thủ ---
 alter table cauthu add constraint CT_DB_FK foreign key (MaDoiBong) references doibong (MaDoiBong) 
@@ -126,27 +118,3 @@ alter table banthang add constraint BT_LBT_FK foreign key (MaLoaiBT) references 
 --- khóa ngoại bảng CTBXH ---
 alter table chitietBXH add constraint CTBXH_BXH_FK foreign key (MaBXH) references bangxephang (MaBXH)
 alter table chitietBXH add constraint CTBXH_DB_FK foreign key (MaDoiBong) references doibong (MaDoiBong)
-
-
---- 2 loại cầu thủ mặc định ---
-insert into loaicauthu (MaLoaiCT, LoaiCauThu) 
-	values ('0', N'Trong nước')
-insert into loaicauthu (MaLoaiCT, LoaiCauThu) 
-	values ('1', N'Ngoài nước')
---- 2 vòng thi đấu ---
-insert into vongthidau (MaVongDau, TenVongDau) 
-	values ('0', N'Lượt đi')
-insert into vongthidau (MaVongDau, TenVongDau) 
-	values ('1', N'Lượt về')
---- 3 loại bàn thắng mặc định ---
-insert into loaibanthang (MaLoaiBT, TenLoaiBT) 
-	values ('0', N'A')
-insert into loaibanthang (MaLoaiBT, TenLoaiBT) 
-	values ('1', N'B')
-insert into loaibanthang (MaLoaiBT, TenLoaiBT) 
-	values ('2', N'C')
---- dữ liệu bảng tham số mặc định ---
-insert into ThamSo(MaThamSo, TuoiCTMin, TuoiCTMax, SoLuongCTMin, SoLuongCTMax, SoCTNgoaiMax, TGGhiBanMax, DiemThang, DiemHoa, DiemThua, Diem, HieuSo, BTSK, KQDK) 
-	values ('0', 16, 40, 15, 22, 3, 5400, 3, 1, 0, 0, 1, 2, 3)
-	
-	

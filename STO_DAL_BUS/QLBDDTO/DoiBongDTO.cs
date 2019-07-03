@@ -8,12 +8,12 @@ namespace QLBDDTO
 {
     public class DoiBongDTO
     {
-        private string madoibong;
+        private int madoibong;
         private string tendoibong;
         private int soluongcauthu;
         private int soluongcauthungoai;
         private string tensannha;
-        public string MaDoiBong { get => madoibong; set => madoibong = value; }
+        public int MaDoiBong { get => madoibong; set => madoibong = value; }
         public string TenDoiBong { get => tendoibong; set => tendoibong = value; }
         public int SoLuongCauThu { get => soluongcauthu; set => soluongcauthu = value; }
         public int SoCauThuNgoai { get => soluongcauthungoai; set => soluongcauthungoai = value; }
