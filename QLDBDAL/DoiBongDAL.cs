@@ -115,10 +115,8 @@ namespace QLBDDAL
                         db.TenDoiBong = row["TenDoiBong"].ToString();
                         db.SoLuongCauThu = int.Parse(row["SoLuongCauThu"].ToString());
                         db.SoCauThuNgoai = int.Parse(row["SoCauThuNgoai"].ToString());
-                        db.TenDoiBong = row["TenSanNha"].ToString();
-
+                        db.TenSanNha = row["TenSanNha"].ToString();
                         listdb.Add(db);
-
                     }
                 }
 

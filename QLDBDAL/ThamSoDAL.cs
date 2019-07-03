@@ -275,11 +275,7 @@ namespace QLBDDAL
 
 
                 }
-
-
-
             }
-
             if (tsDTO.MaThamSo == null)
 
                 return null;
@@ -287,11 +283,7 @@ namespace QLBDDAL
             return tsDTO;
 
         }
-
-
-
         public List<string> getTTXH(string id) //hàm lấy TTXH
-
         {
 
             List<string> list = new List<string>();
@@ -385,9 +377,7 @@ namespace QLBDDAL
                 }
 
             }
-
             return list;
-
         }
 
     }

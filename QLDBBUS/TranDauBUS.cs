@@ -30,6 +30,15 @@ namespace QLBDBUS
         {
             return tdDAL.Load();
         }
+        public void xoa(TranDauDTO td)
+        {
+            tdDAL.xoa(td);
+        }
+
+        public void capnhat(TranDauDTO td)
+        {
+            tdDAL.capnhat(td);
+        }
 
     }
 }

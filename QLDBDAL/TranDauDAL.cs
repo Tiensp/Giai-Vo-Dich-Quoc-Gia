@@ -132,6 +132,70 @@ namespace QLBDDAL
             return list;
         }
 
+        public void xoa(TranDauDTO td)
+        {
+            string query = string.Empty;
+
+            query += "DELETE FROM dbo.trandau ";
+            query += "WHERE MaTranDau=@MaTranDau";
+            using (SqlConnection con = new SqlConnection(ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.Connection = con;
+                    cmd.CommandType = System.Data.CommandType.Text;
+                    cmd.CommandText = query;
+                    cmd.Parameters.AddWithValue("@MaTranDau", td.MaTranDau);
+
+                    try
+                    {
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                        con.Dispose();
+                    }
+                    catch (Exception ex)
+                    {
+                        con.Close();
+                    }
+                }
+            }
+        }
+
+        public void capnhat(TranDauDTO td)
+        {
+            string query = string.Empty;
+
+            query += "UPDATE dbo.trandau SET MaDoiNha=@MaDoiNha, MaDoiKhach=@MaDoiKhach, ThoiGian=@ThoiGian, MaVongDau=@MaVongDau ";
+            query += "WHERE MaTranDau=@MaTranDau";
+            using (SqlConnection con = new SqlConnection(ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.Connection = con;
+                    cmd.CommandType = System.Data.CommandType.Text;
+                    cmd.CommandText = query;
+                    cmd.Parameters.AddWithValue("@MaTranDau", td.MaTranDau);
+                    cmd.Parameters.AddWithValue("@MaDoiNha", td.MaDoiNha);
+                    cmd.Parameters.AddWithValue("@MaDoiKhach", td.MaDoiKhach);
+                    cmd.Parameters.AddWithValue("@ThoiGian", td.ThoiGian);
+                    cmd.Parameters.AddWithValue("@MaVongDau", td.MaVongDau);
+                    try
+                    {
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                        con.Dispose();
+                    }
+                    catch (Exception ex)
+                    {
+                        con.Close();
+                    }
+                }
+            }
+        }
+
+
 
     }
 }
