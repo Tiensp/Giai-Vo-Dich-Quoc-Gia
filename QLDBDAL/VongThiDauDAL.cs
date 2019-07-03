@@ -124,5 +124,28 @@ namespace QLBDDAL
             return list;
         }
 
+        public DataTable hienthi(string mavongdau)
+        {
+            List<VongThiDauDTO> list = new List<VongThiDauDTO>();
+            string query = string.Empty;
+            query += "SELECT A.MaTranDau, B.TenDoiBong as DoiNha, C.TenDoiBong as DoiKhach, A.ThoiGian ";
+            query += "FROM dbo.trandau A, dbo.doibong B, dbo.doibong C ";
+            query += "WHERE A.MaDoiNha = B.MaDoiBong and A.MaDoiKhach = C.MaDoiBong and A.MaVongDau = @MaVongDau";
+            SqlConnection con = new SqlConnection(ConnectionString);
+            con.Open();
+
+            using (SqlCommand cmd = new SqlCommand(query, con))
+            {
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.Parameters.AddWithValue("@MaVongDau", mavongdau);
+                using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                {
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    return dt;
+                }
+            }
+
+        }
     }
 }

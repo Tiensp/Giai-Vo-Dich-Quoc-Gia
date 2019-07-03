@@ -18,8 +18,10 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
         private DoiBongBUS dbBUS = new DoiBongBUS();
         private VongThiDauBUS vtdBUS = new VongThiDauBUS();
         public List<TranDauDTO> ListTranDauSTO = new List<TranDauDTO>();
-        ThemTranDau formThemTD = new ThemTranDau(null);
-        CapNhatTranDau formCNTD = new CapNhatTranDau(null);
+        private ThemTranDau formThemTD = new ThemTranDau(null);
+        private CapNhatTranDau formCNTD = new CapNhatTranDau(null);
+        private DataTable dt = new DataTable();
+        private string mavongdau = null;
         public lapLich()
         {
             InitializeComponent();
@@ -27,12 +29,11 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
 
         private void load_data_td()
         {
-
             dataGridView1.Columns.Clear();
             dataGridView1.DataSource = null;
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.DataSource = ListTranDauSTO;
+            dataGridView1.DataSource = dt;
             DataGridViewTextBoxColumn clMaTD = new DataGridViewTextBoxColumn();
             clMaTD.Name = "Ma";
             clMaTD.HeaderText = "Mã Trận Đấu";
@@ -41,14 +42,14 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
 
             DataGridViewTextBoxColumn clMaDoiNha = new DataGridViewTextBoxColumn();
             clMaDoiNha.Name = "MaDoiNha";
-            clMaDoiNha.HeaderText = "Mã Đội Nhà";
-            clMaDoiNha.DataPropertyName = "MaDoiNha";
+            clMaDoiNha.HeaderText = "Đội Nhà";
+            clMaDoiNha.DataPropertyName = "DoiNha";
             dataGridView1.Columns.Add(clMaDoiNha);
 
             DataGridViewTextBoxColumn clMaDoiKhach = new DataGridViewTextBoxColumn();
             clMaDoiKhach.Name = "MaDoiKhach";
-            clMaDoiKhach.HeaderText = "Mã Đội Khách";
-            clMaDoiKhach.DataPropertyName = "MaDoiKhach";
+            clMaDoiKhach.HeaderText = "Đội Khách";
+            clMaDoiKhach.DataPropertyName = "DoiKhach";
             dataGridView1.Columns.Add(clMaDoiKhach);
 
             DataGridViewTextBoxColumn clTG = new DataGridViewTextBoxColumn();
@@ -56,13 +57,6 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
             clTG.HeaderText = "Thời gian";
             clTG.DataPropertyName = "ThoiGian";
             dataGridView1.Columns.Add(clTG);
-
-
-            DataGridViewTextBoxColumn clMaVongDau = new DataGridViewTextBoxColumn();
-            clMaVongDau.Name = "MaVongDau";
-            clMaVongDau.HeaderText = "Mã Vòng Đấu";
-            clMaVongDau.DataPropertyName = "MaVongDau";
-            dataGridView1.Columns.Add(clMaVongDau);
 
             CurrencyManager myCurrencyManager = (CurrencyManager)this.BindingContext[dataGridView1.DataSource];
             myCurrencyManager.Refresh();
@@ -79,7 +73,6 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
 
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string mavongdau = null;
             List<VongThiDauDTO> listvtd = vtdBUS.load();
             foreach (VongThiDauDTO vtd in listvtd)
             {
@@ -89,17 +82,7 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
                     break;
                 }
             }
-            ListTranDauSTO = tdBUS.load();
-            List<TranDauDTO> listtd = new List<TranDauDTO>();
-            foreach (TranDauDTO td in ListTranDauSTO)
-            {
-                if (td.MaVongDau == mavongdau)
-                {
-                    listtd.Add(td);
-                }
-            }
-
-            ListTranDauSTO = listtd;
+            dt = vtdBUS.hienthi(mavongdau);
             load_data_td();
         }
 
@@ -119,6 +102,7 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
 
         private void XoaButt_Click(object sender, EventArgs e)
         {
+            ListTranDauSTO = tdBUS.load();
             foreach (DataGridViewRow item in this.dataGridView1.SelectedRows)
             {
                 for (int i = 0; i < ListTranDauSTO.Count; i++)
@@ -126,7 +110,7 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
                     if (ListTranDauSTO[i].MaTranDau == item.Cells["Ma"].Value.ToString())
                     {
                         tdBUS.xoa(ListTranDauSTO[i]);
-                        ListTranDauSTO.RemoveAt(i);
+                        dt = vtdBUS.hienthi(mavongdau);
                         break;
                     }
                 }
@@ -139,6 +123,7 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
             bool canupdate = false;
             foreach (DataGridViewRow item in this.dataGridView1.SelectedRows)
             {
+                ListTranDauSTO = tdBUS.load();
                 for (int i = 0; i < ListTranDauSTO.Count; i++)
                 {
                     if (ListTranDauSTO[i].MaTranDau == item.Cells["Ma"].Value.ToString())

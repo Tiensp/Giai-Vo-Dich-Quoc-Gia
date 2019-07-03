@@ -168,18 +168,21 @@ namespace QLBDUI.GiaiDauFD.LapLichTD
                 foreach (TranDauDTO TD in listTD)
                 {
                     if (TD.MaVongDau == td.MaVongDau)
-                        if ((td.MaDoiNha == TD.MaDoiNha) && (td.MaDoiKhach == TD.MaDoiKhach))
+                        if(TD.MaTranDau != td.MaTranDau)
                         {
-                            MessageBox.Show("Hai đội đã có trận đấu trong vòng đấu này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            kt = false;
-                            break;
-                        }
-                        else if ((td.MaDoiNha == TD.MaDoiKhach) && (td.MaDoiKhach == TD.MaDoiNha))
-                        {
-                            MessageBox.Show("Hai đội đã có trận đấu trong vòng đấu này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            kt = false;
-                            break;
-                        }
+                            if ((td.MaDoiNha == TD.MaDoiNha) && (td.MaDoiKhach == TD.MaDoiKhach))
+                            {
+                                MessageBox.Show("Hai đội đã có trận đấu trong vòng đấu này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                kt = false;
+                                break;
+                            }
+                            else if ((td.MaDoiNha == TD.MaDoiKhach) && (td.MaDoiKhach == TD.MaDoiNha))
+                            {
+                                MessageBox.Show("Hai đội đã có trận đấu trong vòng đấu này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                kt = false;
+                                break;
+                            }
+                        }                     
                         else if (TD.MaVongDau != td.MaVongDau)
                             if ((td.MaDoiNha == TD.MaDoiNha) && (td.MaDoiKhach == TD.MaDoiKhach))
                             {
